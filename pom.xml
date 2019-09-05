@@ -7,7 +7,7 @@
   <packaging>jar</packaging>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jetty-version>9.2.1.v20140609</jetty-version>
+    <jetty-version>9.3.24.v20180605</jetty-version>
   </properties>
   <dependencies>
     <dependency>
@@ -82,7 +82,7 @@
           <executable>java</executable>
           <arguments>
             <argument>-cp</argument>
-            <classpath />
+            <classpath/>
             <argument>org.eclipse.jetty.demo.Main</argument>
             <argument>8080</argument>
           </arguments>
